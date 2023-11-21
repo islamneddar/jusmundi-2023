@@ -1,4 +1,5 @@
 import {convertHundreds} from "./hundred-converter.js";
+import {convertNextPart} from "./common.js";
 
 export const convertThousand = (number) => {
     let result = '';
@@ -13,17 +14,5 @@ export const convertThousand = (number) => {
         }
     }
 
-    const hundreds = number % 1000;
-    if (hundreds > 0) {
-        if(thousandUnitExists){
-            result += "-"
-        }
-        result += `${convertHundreds(hundreds)} `;
-    }else{
-        // case 2000, 1000, 3000 ....
-        if(thousandsUnit > 1){
-            result += "s"
-        }
-    }
-    return result;
+    return result + convertNextPart(number, 1000, thousandUnitExists, thousandsUnit > 1, convertHundreds);
 }
