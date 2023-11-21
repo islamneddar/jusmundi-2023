@@ -25,7 +25,7 @@ Ensure you have Node.js installed on your machine. You can download it from [her
     npm run run-args [numbers...]
     ```
 
-4.2 Run the application with list of numbers from JSON file :
+4.2 Run the application with list of numbers from JSON file ( in /src/numbers.json) :
    ```bash
     npm run run-json-file
    ```
