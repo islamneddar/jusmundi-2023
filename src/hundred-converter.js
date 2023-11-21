@@ -1,5 +1,5 @@
 import {convertTens} from "./tens-converter.js";
-import {getZeroToNineWord, getZeroToSixteenWord} from "./constant.js";
+import {getZeroToNineWord} from "./constant.js";
 
 export const convertHundreds = (number,prefixThousand = false) => {
     let result = '';
