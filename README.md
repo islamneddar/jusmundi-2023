@@ -9,7 +9,7 @@ Ensure you have Node.js installed on your machine. You can download it from [her
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/jusmundi.git
+   git clone https://github.com/islamneddar/jusmundi-repo.git
    ```
 2. Navigate to the project directory:
 
@@ -17,16 +17,15 @@ Ensure you have Node.js installed on your machine. You can download it from [her
     cd jusmundi
     ```
 3. Install the dependencies:
-
    ```bash
     npm install
     ```
-4.1 Run the application with list of numbers from args :
- ```bash
+4. Run the application with list of numbers from args :
+   ```bash
     npm run run-args [numbers...]
     ```
 
 4.2 Run the application with list of numbers from JSON file :
-    ```bash
-        npm run run-json-file 
-        ```
+   ```bash
+    npm run run-json-file
+   ```
