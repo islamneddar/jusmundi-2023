@@ -1,0 +1,11 @@
+{
+  "name": "jusmundi",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "run-args" : "node from-args.js",
+    "run-json-file" : "node from-json-file.js"
+  },
+  "dependencies": {
+  }
+}
